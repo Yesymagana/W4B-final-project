@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ nav{
+     height: 65px;
+     width: 100%;
+     position: -webkit-sticky;
+     position: fixed;
+     top: 0;
+     z-index: 1;
+     background-color: rgb(15, 15, 15);
+ }
+ .logo img{
+     width: 80px;
+     height: 80px;
+     margin: 5px 30px;
+     border-radius: 29px;
+     box-shadow: 1px 1px rgba(0, 0, 0, 0.9);
+     float: left;
+ }
+ nav ul{
+     list-style-type: none;
+     float: right;
+ }
+ nav ul li{
+     display: inline-block;
+     padding: 22px 20px;
+ }
+ nav ul li a{
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ nav ul li a:hover{
+     color: rgb(58, 127, 231);
+ }
+ /*nav ul li a:visited{
+     color: rgb(255, 238, 162);
+ }*/
+ .border{
+     border: 1px solid #020202;
+ }
+ body{
+    background-color: rgb(26, 25, 25);
+}
+.video1{
+    position: absolute;
+    top: 85px;
+    left: 8%;
+}
+ .video2{
+    position: absolute;
+    top: 85px;
+    left: 58%;
+}
+ .video3{
+    position: absolute;
+    top: 625px;
+    left: 8%;
+}
+.video4{
+    position: absolute;
+    top: 625px;
+    left: 58%;
+}
+.box{
+    padding: 15px;
+    height: 170px;
+    width: 560px;
+    position: relative;
+    border-radius: 29px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 87); 
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: 'special elite';
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 4px;
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+/* .twitter-feed{
+    position: absolute;
+    top: 1800px;
+    left: 2%; 
+}*/
+h6{
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 9px;
+    clear: both;
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: -65%;
+}
+.icons{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    text-align: center;
+}
+.fa-instagram{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-twitter{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-facebook-f{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-flickr{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-tumblr{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
