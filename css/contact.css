@@ -74,9 +74,11 @@ body{
 }
 .google-map{
      position: absolute;
-     top: 50px;
+     top: 80px;
      left: 65%;
-     padding: 30px;
+     padding: 20px;
+     border: 1px solid rgb(0, 0, 0);
+     background-color: rgb(37, 37, 37);
  }
 h6{
     font-size: 15px;
@@ -144,7 +146,7 @@ footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #fff;
     position: absolute;
-    top: 48%;
+    top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;

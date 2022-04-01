@@ -292,7 +292,7 @@ h6{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #fff;
     position: absolute;
-    top: 48%;
+    top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;

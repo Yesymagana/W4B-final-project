@@ -10,7 +10,7 @@
      height: 65px;
      width: 100%;
      position: -webkit-sticky;
-     position: sticky;
+     position: fixed;
      top: 0;
      z-index: 1;
      background-color: rgb(15, 15, 15);
@@ -43,7 +43,8 @@
      color: rgb(255, 238, 162);
  }*/
 .column1{
-     position: relative;
+     position: absolute;
+     top: 70px;
      left: 7%;
      width: 50%;
      margin: 15px;
@@ -71,9 +72,9 @@ p{
     margin: 15px;
 }
 .image{
-    position: relative;
-    top: -648px;
-    right: 15%;
+    position: absolute;
+    top: 85px;
+    left: 65%;
 }
  .border{
      border: 1px solid #020202;
@@ -148,7 +149,7 @@ h6{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #fff;
     position: absolute;
-    top: 48%;
+    top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
