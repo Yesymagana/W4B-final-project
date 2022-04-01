@@ -98,7 +98,7 @@ h2{
 h6{
     font-size: 15px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 90%;
 }
 footer{
@@ -108,14 +108,14 @@ footer{
     padding-top: 7px;
     padding-right: 9px;
     clear: both;
-    height: 55px;
+    height: 35px;
     width: 100%;
     position: absolute;
     bottom: -65%;
 }
 .icons{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 1%;
     text-align: center;
 }
@@ -123,19 +123,34 @@ footer{
     color: rgb(255, 255, 255);
     z-index: 1;
 }
+.fa-instagram:hover{
+    color: rgb(58, 127, 231);
+}
 .fa-twitter{
     color: rgb(255, 255, 255);
     z-index: 1;
+}
+.fa-twitter:hover{
+    color: rgb(58, 127, 231);
 }
 .fa-facebook-f{
     color: rgb(255, 255, 255);
     z-index: 1;
 }
+.fa-facebook-f:hover{
+    color: rgb(58, 127, 231);
+}
 .fa-flickr{
     color: rgb(255, 255, 255);
     z-index: 1;
 }
+.fa-flickr:hover{
+    color: rgb(58, 127, 231);
+}
 .fa-tumblr{
     color: rgb(255, 255, 255);
     z-index: 1;
+}
+.fa-tumblr:hover{
+    color: rgb(58, 127, 231);
 }
