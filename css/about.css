@@ -59,13 +59,11 @@ h2{
     text-align: center;
     line-height: 50px;
     letter-spacing: 4px;  
-    /* color: rgb(58, 127, 231); */
  }
 p{
     text-align: justify;
     line-height: 25px; 
     letter-spacing: 2px;
-    /* color: rgb(58, 127, 231); */
  }
 .column2{
     float: right;
@@ -141,5 +139,20 @@ h6{
     z-index: 1;
 }
 .fa-tumblr:hover{
+    color: rgb(58, 127, 231);
+}
+.back-to-top a{
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    top: 48%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.back-to-top a:hover{
     color: rgb(58, 127, 231);
 }

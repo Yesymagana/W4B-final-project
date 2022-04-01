@@ -74,7 +74,6 @@ main .main-child{
      padding: 20px 40px;
      position: absolute;
      top: 350px;
-     /* top:120%; */
      left:50%;
      transform: translate(-50%, -50%);
  }
@@ -88,18 +87,6 @@ main .main-child{
  body{
      background-color: rgb(26, 25, 25);
  }
- /* .box{ 
-     padding: 15px;
-     height: 170px;
-     width: 560px;
-     position: relative;
-     border-radius: 29px;
-     background-color: rgb(255, 255, 255);
-     color: rgb(58, 127, 231); 
-     text-align: justify;
-     line-height: 25px;
-     letter-spacing: 2px;
- } */
  h2{
      font-family: 'special elite';
      font-weight: 500;
@@ -239,11 +226,6 @@ main .main-child{
     height: auto;
     z-index: 1;
  }
- /* .twitter-feed{
-    position: relative;
-    top: -1895px;
-    left: 58%;
-} */
 h6{
     font-size: 15px;
     position: absolute;
@@ -303,4 +285,18 @@ h6{
 .fa-tumblr:hover{
     color: rgb(58, 127, 231);
 }
- 
+.back-to-top a{
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    top: 48%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.back-to-top a:hover{
+    color: rgb(58, 127, 231);
+}

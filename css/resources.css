@@ -90,11 +90,6 @@ h2{
     color: rgb(46, 46, 46);
     text-decoration: none;
 }
-/* .twitter-feed{
-    position: absolute;
-    top: 1800px;
-    left: 2%; 
-}*/
 h6{
     font-size: 15px;
     position: absolute;
@@ -152,5 +147,20 @@ footer{
     z-index: 1;
 }
 .fa-tumblr:hover{
+    color: rgb(58, 127, 231);
+}
+.back-to-top a{
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    top: 48%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.back-to-top a:hover{
     color: rgb(58, 127, 231);
 }
