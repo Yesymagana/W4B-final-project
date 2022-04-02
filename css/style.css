@@ -44,7 +44,7 @@
  }*/
  main{
      height: 650px;
-     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/camera.jpg);
+     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/camera.jpg);
      background-color: rgba(0, 0, 0, 0.4);
      background-size: cover;
      background-repeat: no-repeat;
